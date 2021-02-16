@@ -1,0 +1,135 @@
+#title{
+  font-weight: bold;
+  color: black;
+  position: static;
+}
+.navbar-brand{
+  padding: 2% 5% 0;
+  margin-bottom: -2%;
+}
+h1{
+  font-family: "Montserrat";
+  font-size:2rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navbar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding:0 2rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+/* home */
+#home{
+  margin: 0 10% 20%;
+  padding-top: 30%;
+}
+.home-img{
+  width:23rem;
+  height: 23rem;
+  position: relative;
+  border-radius: 50%;
+}
+
+/*Login */
+#login{
+  position: relative;
+  z-index: 1;
+  background-color: #cccccc;
+  background-image: linear-gradient(#c7ffd8, #a1cae2);
+}
+.login-item{
+  padding: 10% 20%;
+}
+.farmer-logs{
+  padding: 0 15%;
+  border-right: 2px solid black;
+  align-items: center;
+}
+.sponsor-logs{
+  padding: 0 15%;
+  align-items: center;
+}
+.form-signin {
+  width: 300px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/* testimonials */
+
+#about{
+  background-color:#61b15a;
+  background-image: linear-gradient(#a1cae2,#91684a, green);
+  text-align: center;
+  color: #fff;
+  padding: 10%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width:15%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+
+/* footer */
+#footer{
+  text-align: center;
+  padding:10% 30%;
+}
+.cta-icon{
+  margin: 4% 2%;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+  }
+  .home{
+    margin: 35% 20%;
+  }
+}
